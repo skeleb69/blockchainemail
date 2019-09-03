@@ -1,7 +1,8 @@
-progma solidity ^0.4.11;
+pragma solidity ^0.5.8;
 
-contract blockmail{
-    function blockmail() public{
-              s
+contract Blockmail{
+    string public user;
+    function users() public{
+        user = "User1";
     }
 }
